@@ -29,6 +29,8 @@ NAT Instances
 - Managed by you
 - A generic Amazon linux AMI that's configured to perform NAT
 - Manual port forwarding
+- Use a bastion server
+- View Cloudwatch alarms
 
 NAT Gateways
 - Hoghly available. NAT gateways in each availability zone are implemented with redundancy
@@ -36,6 +38,8 @@ NAT Gateways
 - Managed by AWS
 - Software is optimized for handling NAT traffic
 - Port forwarding is not supported
+- Bastion servers not supported
+- Traffic metrics not supported
 
 ## 9.Understanding Elastic Bolck Store(EBS) and Elastic File System(EFS)
 ### 2 Instance Storage Types
