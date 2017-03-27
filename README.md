@@ -20,6 +20,12 @@ PTR record: href of ip
 set type=ptr
 8.8.8.8
 ```
+## 9.Understanding Elastic Bolck Store(EBS) and Elastic File System(EFS)
+### 2 Instance Storage Types
+####05:02
+Cannot be attached to more than one instance at the same time  
+Can be transferred between availbility zones  
+EBS volume data is replicated across multiple servers in an availablity zone.
 
 ## Additional AWS Services
 ### 3. Partition Key
