@@ -20,3 +20,8 @@ PTR record: href of ip
 set type=ptr
 8.8.8.8
 ```
+
+## Additional AWS Services
+### 3. Partition Key
+
+Use partition keys associated with each data record to determine which shard a given data record belongs to
